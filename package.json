@@ -1,0 +1,21 @@
+{
+  "name": "scrapper-vlr.gg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/beceluiz/scrapper-vlr.gg.git",
+  "author": "beceluiz <luizfernando.z.l.2011@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --require dotenv-safe/config src/index.ts"
+  },
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "puppeteer": "^17.1.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/dotenv-safe": "^8.1.2",
+    "@types/puppeteer": "^5.4.6"
+  }
+}
